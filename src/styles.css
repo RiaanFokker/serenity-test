@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+html body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(8, 8, 68);
+}
+
+html body h1 {
+    font-weight: 400;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+width: 14px; /* Adjust scrollbar width */
+}
+
+::-webkit-scrollbar-thumb {
+background: rgb(30, 30, 30); /* Scrollbar color */
+border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+/*background: rgba(0, 0, 0, 0.1); /* Track color */
+background: rgb(122, 122, 122); /* Track color */
+}
